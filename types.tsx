@@ -4,14 +4,26 @@ export type RootStackParamList = {
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+  AllFests?: string;
+  NextFest?: string;
+  Settings?: string;
+  SelectedHoliday?: string;
 };
 
-export type TabOneParamList = {
-  TabOneScreen: undefined;
+export type TabAllFestsParamList = {
+  TabAllFestsScreen: undefined;
+  TabSelectedHolidayScreen: undefined;
 };
 
-export type TabTwoParamList = {
-  TabTwoScreen: undefined;
+export type TabSettingsParamList = {
+  TabSettingsScreen: undefined;
+};
+
+export type TabNextFestParamList = {
+  TabNextFestScreen: undefined;
+  TabSelectedHolidayScreen: undefined;
+};
+
+export type TabSelectedHolidayParamList = {
+  TabSelectedHolidayScreen: undefined;
 };
